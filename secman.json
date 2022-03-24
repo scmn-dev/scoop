@@ -1,18 +1,25 @@
 {
-  "version": "6.2.1",
-  "architecture": {
-    "32bit": {
-      "url": "https://github.com/scmn-dev/secman/releases/download/v6.2.1/secman_windows_v6.2.1_386.zip",
-      "bin": ["bin/secman.exe"],
-      "hash": "ca995f7f89b905d03d871bb9e080b5a0dee8813b7a19efc7fdd5fecc735ac064"
+    "version": "6.2.2",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/scmn-dev/secman/releases/download/v6.2.2/secman_windows_v6.2.2_386.zip",
+            "bin": [
+                "bin/secman.exe"
+            ],
+            "hash": "8bbf3e95a402ee342201b640a837565168e416d9800ffe2adf9ab61c18d0e17e"
+        },
+        "64bit": {
+            "url": "https://github.com/scmn-dev/secman/releases/download/v6.2.2/secman_windows_v6.2.2_amd64.zip",
+            "bin": [
+                "bin/secman.exe"
+            ],
+            "hash": "beef7e246394ef2bd25eb0788f5e0e6fe3f3b6be6adecfcb2a617c5f5b132342"
+        }
     },
-    "64bit": {
-      "url": "https://github.com/scmn-dev/secman/releases/download/v6.2.1/secman_windows_v6.2.1_amd64.zip",
-      "bin": ["bin/secman.exe"],
-      "hash": "b3c8c056d96a976a0bcff6c1cc17965d3217d43b6327b3b12748e5152d230b2e"
-    }
-  },
-  "homepage": "https://secman.dev",
-  "license": "MIT",
-  "description": "👊 Human-friendly and amazing TUI secrets manager"
+    "homepage": "https://secman.dev",
+    "license": "MIT",
+    "description": "👊 Human-friendly and amazing TUI secrets manager",
+    "post_install": [
+        "npm install --global @secman/scc"
+    ]
 }

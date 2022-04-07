@@ -1,19 +1,19 @@
 {
-    "version": "6.2.2",
+    "version": "6.2.3",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/scmn-dev/secman/releases/download/v6.2.2/secman_windows_v6.2.2_386.zip",
+            "url": "https://github.com/scmn-dev/secman/releases/download/v6.2.3/secman_windows_v6.2.3_386.zip",
             "bin": [
                 "bin/secman.exe"
             ],
-            "hash": "8bbf3e95a402ee342201b640a837565168e416d9800ffe2adf9ab61c18d0e17e"
+            "hash": "a09896c7f99e83da656220574e7bbf28cc7885cfe61a806e3dd734322c66ac08"
         },
         "64bit": {
-            "url": "https://github.com/scmn-dev/secman/releases/download/v6.2.2/secman_windows_v6.2.2_amd64.zip",
+            "url": "https://github.com/scmn-dev/secman/releases/download/v6.2.3/secman_windows_v6.2.3_amd64.zip",
             "bin": [
                 "bin/secman.exe"
             ],
-            "hash": "beef7e246394ef2bd25eb0788f5e0e6fe3f3b6be6adecfcb2a617c5f5b132342"
+            "hash": "1708f1208019e7f549b6107bf4cd2f32f77be2b65679baaa24bc8945755c4849"
         }
     },
     "homepage": "https://secman.dev",
